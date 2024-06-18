@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "zero-times-infinity",
+	"version": "${version}",
+	"name": "Zero Times Infinity",
+	"description": "Bows enchanted with infinity no longer require an arrow in the inventory.",
+	"authors": [
+		"Ryhon"
+	],
+	"contact": {
+		"homepage": "https://ryhon.xyz",
+		"sources": "https://github.com/Ryhon0/ZeroTimesInfinity",
+		"issues": "https://github.com/Ryhon0/ZeroTimesInfinity/issues"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/zero-times-infinity/icon.png",
+	"environment": "*",
+	"mixins": [
+		"zero-times-infinity.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.donate": "https://github.com/sponsors/Ryhon0",
+				"modmenu.modrinth": "https://modrinth.com/mod/ZeroTimesInfinity",
+				"modmenu.github_releases": "https://github.com/Ryhon0/ZeroTimesInfinity/releases",
+				"modmenu.twitter": "https://twitter.com/RyhonDev"
+			}
+		}
+	}
+}
